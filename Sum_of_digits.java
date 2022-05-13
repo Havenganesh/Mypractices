@@ -8,7 +8,7 @@ public class Sum_of_digits
 		{
 			// TODO Auto-generated method stub
 			Sum_of_digits ld = new Sum_of_digits(); 
-			int no = 987654321; //
+			int no = 9871; //
 			//ld.calculate_sum_of_digits(no); 
 			ld.fibanocci();
 			//if(result>9)
