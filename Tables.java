@@ -5,15 +5,15 @@ public class Tables {
 	public static void main(String[] args) 
 	{
 		Tables tab = new Tables();
-		/*tab.num15();
-		/*tab.num51();
-		tab.num13();
-		tab.num31();
+//		tab.num15();
+//		tab.num51();
+//		tab.num13();
+//		tab.num31();
 		tab.numAster();
-		tab.num1t9();
-		tab.num1t81();*/
-		tab.num1t25();
-		tab.num1t15();
+//		tab.num1t9();
+//		tab.num1t81();
+//		tab.num1t25();
+//		tab.num1t15();
 
 	}
 	public void num15()
@@ -95,11 +95,14 @@ public class Tables {
 	}
 	public void num1t25()
 	{
-		for(int m =0;m<4;m++) //second loop written
+		
+		for(int m =1;m<=5;m++) //second loop written
 		{
-		for(int n =1;n<=5;n++)//first loop written
+			int k=1;
+		for(int n =1;n<=m;n++)//first loop written
 		{
-			System.out.print(n*n+" ");
+			System.out.print(k*k+" ");
+			k++;
 		}
 		System.out.println();
 		}
