@@ -19,8 +19,6 @@ public class NeonNum {
 		NeonNum object = new NeonNum();
 		object.neonNum(a,b);
 		object.perfectNum(a,b);
-		
-
 	}
 	public void neonNum(int a,int b)
 	{
@@ -48,14 +46,11 @@ public class NeonNum {
 			System.out.println(i+" is not a neon num");
 		}
 		}
-		}
-		
+		}	
 	}
 
 	public void perfectNum(int a,int b)
 	{
-		
-		
 		for(int i=a;i<=b;i++)
 		{
 			int sum_Of_Divisors = 0;
@@ -76,8 +71,6 @@ public class NeonNum {
 			{
 				System.out.println(i+" is not a perfect number");
 			}
-		}
-		
-		
+		}	
 	}
 }
